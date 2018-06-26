@@ -22,8 +22,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+            <state relative-caret-position="100">
+              <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,12 +238,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testBread - 2018.06.23 at 23h 06m 18s.xml">
-      <configuration name="FirstTest.testBread" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testBread - 2018.06.23 at 23h 06m 52s.xml">
-      <configuration name="FirstTest.testBread" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 16m 45s.xml">
       <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
     </history-entry>
@@ -266,6 +260,12 @@
       <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstTest_testCountResults - 2018.06.26 at 12h 02m 40s.xml">
+      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCountResults - 2018.06.26 at 12h 06m 19s.xml">
+      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCountResults - 2018.06.26 at 12h 14m 28s.xml">
       <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -518,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="100">
+          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
