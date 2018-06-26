@@ -176,8 +176,8 @@ public class FirstTest {
                 10
         );
 
-        waitForElementPresent(
-                By.id("org.wikipedia:id/page_list_item_container"),
+        waitForElementNotPresent(
+                By.id("org.wikipedia:id/search_empty_text"),
                 "Search for a given word '" + search_word + "' found nothing",
                 10
         );
