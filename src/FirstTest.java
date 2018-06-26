@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.URL;
+import java.util.Iterator;
 import java.util.List;
 
 public class FirstTest {
@@ -176,8 +177,8 @@ public class FirstTest {
                 10
         );
 
-        waitForElementNotPresent(
-                By.id("org.wikipedia:id/search_empty_text"),
+        waitForElementPresent(
+                By.id("org.wikipedia:id/page_list_item_container"),
                 "Search for a given word '" + search_word + "' found nothing",
                 10
         );
@@ -193,6 +194,54 @@ public class FirstTest {
                 "X is still present on page",
                 5
         );
+    }
+
+    @Test
+    public void testCompareSearchResults()
+    {
+        String search_word = "Java";
+
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipedia' input",
+                5
+        );
+
+        waitForElementAndSendKeys(
+                By.xpath("//*[contains(@text, 'Search…')]"),
+                search_word,
+                "Cannot find search input",
+                10
+        );
+
+        waitForElementPresent(
+                By.id("org.wikipedia:id/page_list_item_container"),
+                "Search for a given word '" + search_word + "' found nothing",
+                10
+        );
+
+        List<WebElement> list_containers = driver.findElements(By.id("org.wikipedia:id/page_list_item_container"));
+
+        Iterator<WebElement> iter_containers = list_containers.iterator();
+        while(iter_containers.hasNext())
+        {
+            List<WebElement> list_title = iter_containers.next().findElements(By.id("org.wikipedia:id/page_list_item_title"));
+
+            Iterator<WebElement> iter_title = list_title.iterator();
+            while(iter_title.hasNext())
+            {
+                String title_text = iter_title.next().getAttribute("text");
+
+                if(!title_text.toLowerCase().contains(search_word.toLowerCase()))
+                {
+                    Assert.assertEquals(
+                            "One of the titles does not contain the search word",
+                            search_word,
+                            title_text
+                    );
+                }
+            }
+        }
     }
 
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)

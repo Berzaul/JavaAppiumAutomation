@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8720bfe-63bc-4981-a260-825522219ee7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +24,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+            <state relative-caret-position="568">
+              <caret line="233" column="45" selection-start-line="233" selection-start-column="45" selection-end-line="233" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.testCountResults">
+  <component name="RunManager" selected="JUnit.FirstTest.testCompareSearchResults">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -101,13 +103,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FirstTest.testCompareSearchText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.testCompareSearchResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testCompareSearchText" />
+      <option name="METHOD_NAME" value="testCompareSearchResults" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -208,19 +210,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FirstTest.testCompareSearchText" />
       <item itemvalue="JUnit.FirstTest.testCountResultElements" />
       <item itemvalue="JUnit.FirstTest.testBread" />
       <item itemvalue="JUnit.FirstTest.testCountResult" />
       <item itemvalue="JUnit.FirstTest.testCountResults" />
+      <item itemvalue="JUnit.FirstTest.testCompareSearchResults" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.testCompareSearchResults" />
         <item itemvalue="JUnit.FirstTest.testCountResults" />
         <item itemvalue="JUnit.FirstTest.testCountResult" />
         <item itemvalue="JUnit.FirstTest.testBread" />
         <item itemvalue="JUnit.FirstTest.testCountResultElements" />
-        <item itemvalue="JUnit.FirstTest.testCompareSearchText" />
       </list>
     </recent_temporary>
   </component>
@@ -238,43 +240,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testBread - 2018.06.23 at 23h 06m 18s.xml">
-      <configuration name="FirstTest.testBread" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 20h 55m 48s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testBread - 2018.06.23 at 23h 06m 52s.xml">
-      <configuration name="FirstTest.testBread" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 20h 58m 39s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 16m 45s.xml">
-      <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 03m 49s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 24m 42s.xml">
-      <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 04m 55s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 25m 07s.xml">
-      <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 09m 46s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 25m 34s.xml">
-      <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 10m 15s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResult - 2018.06.23 at 23h 26m 08s.xml">
-      <configuration name="FirstTest.testCountResult" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 13m 14s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.26 at 09h 40m 27s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 34m 56s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.26 at 12h 02m 07s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 35m 38s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.26 at 12h 02m 40s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.26 at 21h 36m 37s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="900" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.35789475" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -287,11 +298,12 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25107297" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31878787" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37262872" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -315,7 +327,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.35789475" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25107297" />
@@ -326,10 +337,151 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaAppiumAutomation.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -518,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="568">
+          <caret line="233" column="45" selection-start-line="233" selection-start-column="45" selection-end-line="233" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
