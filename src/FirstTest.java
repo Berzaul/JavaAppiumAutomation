@@ -161,6 +161,8 @@ public class FirstTest {
     @Test
     public void testCountResults()
     {
+        String search_word = "Java";
+
         waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
@@ -169,27 +171,28 @@ public class FirstTest {
 
         waitForElementAndSendKeys(
                 By.xpath("//*[contains(@text, 'Search…')]"),
-                "Java",
+                search_word,
                 "Cannot find search input",
                 10
         );
 
-        List<WebElement> elements = driver.findElements(By.id("org.wikipedia:id/page_list_item_container"));
+        waitForElementPresent(
+                By.id("org.wikipedia:id/page_list_item_container"),
+                "Search for a given word '" + search_word + "' found nothing",
+                10
+        );
 
-        if(elements.size() >= 1)
-        {
-            waitForElementAndClick(
-                    By.id("org.wikipedia:id/search_close_btn"),
-                    "Cannot find X to cancel search",
-                    5
-            );
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_close_btn"),
+                "Cannot find X to cancel search",
+                5
+        );
 
-            waitForElementNotPresent(
-                    By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"),
-                    "X is still present on page",
-                    5
-            );
-        } else Assert.fail("Zero result");
+        waitForElementNotPresent(
+                By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"),
+                "X is still present on page",
+                5
+        );
     }
 
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)
