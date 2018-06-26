@@ -152,7 +152,7 @@ public class FirstTest {
         String search_text = text_element.getAttribute("text");
 
         Assert.assertEquals(
-                "We see unexpected text!",
+                "The text in the search bar does not match the expected",
                 "Search…",
                 search_text
         );
