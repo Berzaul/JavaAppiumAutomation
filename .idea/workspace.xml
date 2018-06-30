@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8720bfe-63bc-4981-a260-825522219ee7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b8720bfe-63bc-4981-a260-825522219ee7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +20,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="190" column="48" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="48" />
+            <state relative-caret-position="217">
+              <caret line="182" column="154" selection-start-line="182" selection-start-column="130" selection-end-line="182" selection-end-column="154" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#16533#16534#0" expanded="true" />
@@ -59,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="900" />
     <option name="height" value="835" />
@@ -247,12 +243,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 21h 46m 50s.xml">
-      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 21h 47m 40s.xml">
-      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 21h 49m 43s.xml">
       <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
@@ -276,6 +266,12 @@
     </history-entry>
     <history-entry file="FirstTest_testCountResults - 2018.06.30 at 22h 07m 56s.xml">
       <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 22h 10m 33s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 22h 11m 04s.xml">
+      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -703,8 +699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="190" column="48" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="48" />
+        <state relative-caret-position="217">
+          <caret line="182" column="154" selection-start-line="182" selection-start-column="130" selection-end-line="182" selection-end-column="154" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#16533#16534#0" expanded="true" />

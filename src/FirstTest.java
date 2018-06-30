@@ -194,7 +194,7 @@ public class FirstTest {
 
         Assert.assertTrue(
                 "We found too few results!",
-                elements_count > 0
+                elements_count > 1
         );
 
         waitForElementAndClick(
