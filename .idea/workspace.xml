@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8720bfe-63bc-4981-a260-825522219ee7" name="Default" comment="" />
+    <list default="true" id="b8720bfe-63bc-4981-a260-825522219ee7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAppiumAutomation/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,12 +24,10 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="182" column="154" selection-start-line="182" selection-start-column="130" selection-end-line="182" selection-end-column="154" />
+            <state relative-caret-position="487">
+              <caret line="547" column="10" lean-forward="true" selection-start-line="547" selection-start-column="10" selection-end-line="547" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#16533#16534#0" expanded="true" />
-                <element signature="e#16562#16563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="900" />
     <option name="height" value="835" />
@@ -85,26 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.testCompareSearchResults">
+  <component name="RunManager" selected="JUnit.FirstTest.testCheckSearchArticleInBackground">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FirstTest.saveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="saveFirstArticleToMyList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="FirstTest.testAmountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
@@ -123,13 +108,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FirstTest.testAmountOfNotEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.testChangeScreenOrientationOnSearchResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testAmountOfNotEmptySearch" />
+      <option name="METHOD_NAME" value="testChangeScreenOrientationOnSearchResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FirstTest.testCheckSearchArticleInBackground" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testCheckSearchArticleInBackground" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -213,19 +215,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FirstTest.saveFirstArticleToMyList" />
-      <item itemvalue="JUnit.FirstTest.testAmountOfNotEmptySearch" />
       <item itemvalue="JUnit.FirstTest.testAmountOfEmptySearch" />
       <item itemvalue="JUnit.FirstTest.testCountResults" />
       <item itemvalue="JUnit.FirstTest.testCompareSearchResults" />
+      <item itemvalue="JUnit.FirstTest.testChangeScreenOrientationOnSearchResults" />
+      <item itemvalue="JUnit.FirstTest.testCheckSearchArticleInBackground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.testCheckSearchArticleInBackground" />
+        <item itemvalue="JUnit.FirstTest.testChangeScreenOrientationOnSearchResults" />
         <item itemvalue="JUnit.FirstTest.testCompareSearchResults" />
         <item itemvalue="JUnit.FirstTest.testCountResults" />
         <item itemvalue="JUnit.FirstTest.testAmountOfEmptySearch" />
-        <item itemvalue="JUnit.FirstTest.testAmountOfNotEmptySearch" />
-        <item itemvalue="JUnit.FirstTest.saveFirstArticleToMyList" />
       </list>
     </recent_temporary>
   </component>
@@ -243,21 +245,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 21h 49m 43s.xml">
-      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 21h 50m 35s.xml">
-      <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.30 at 22h 04m 16s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.30 at 22h 04m 57s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testCountResults - 2018.06.30 at 22h 05m 35s.xml">
-      <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest_testCountResults - 2018.06.30 at 22h 06m 06s.xml">
       <configuration name="FirstTest.testCountResults" configurationId="JUnit" />
     </history-entry>
@@ -272,6 +259,21 @@
     </history-entry>
     <history-entry file="FirstTest_testCompareSearchResults - 2018.06.30 at 22h 11m 04s.xml">
       <configuration name="FirstTest.testCompareSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testChangeScreenOrientationOnSearchResults - 2018.07.01 at 15h 46m 13s.xml">
+      <configuration name="FirstTest.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testChangeScreenOrientationOnSearchResults - 2018.07.01 at 15h 47m 08s.xml">
+      <configuration name="FirstTest.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testChangeScreenOrientationOnSearchResults - 2018.07.01 at 15h 49m 58s.xml">
+      <configuration name="FirstTest.testChangeScreenOrientationOnSearchResults" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCheckSearchArticleInBackground - 2018.07.02 at 12h 35m 26s.xml">
+      <configuration name="FirstTest.testCheckSearchArticleInBackground" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCheckSearchArticleInBackground - 2018.07.02 at 12h 36m 22s.xml">
+      <configuration name="FirstTest.testCheckSearchArticleInBackground" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -295,7 +297,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28861788" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28861788" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
       <window_info id="Capture Tool" order="2" />
@@ -330,8 +332,6 @@
           <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -345,8 +345,6 @@
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -360,8 +358,6 @@
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -382,8 +378,6 @@
           <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -397,8 +391,6 @@
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,8 +404,6 @@
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,8 +417,6 @@
           <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,8 +430,6 @@
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -457,8 +443,6 @@
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -479,8 +463,6 @@
           <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,8 +476,6 @@
           <caret line="231" column="17" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,8 +489,6 @@
           <caret line="231" column="17" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,8 +502,6 @@
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -539,8 +515,6 @@
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,8 +528,6 @@
           <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,8 +541,6 @@
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -584,8 +554,6 @@
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,8 +574,6 @@
           <caret line="192" column="5" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,8 +587,6 @@
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -636,8 +600,6 @@
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,8 +613,6 @@
           <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -666,8 +626,6 @@
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,8 +639,6 @@
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,12 +655,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="182" column="154" selection-start-line="182" selection-start-column="130" selection-end-line="182" selection-end-column="154" />
+        <state relative-caret-position="487">
+          <caret line="547" column="10" lean-forward="true" selection-start-line="547" selection-start-column="10" selection-end-line="547" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16533#16534#0" expanded="true" />
-            <element signature="e#16562#16563#0" expanded="true" />
           </folding>
         </state>
       </provider>
