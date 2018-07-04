@@ -5,10 +5,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.ScreenOrientation;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -736,6 +733,47 @@ public class FirstTest {
                 first_search_line,
                 article_title
         );
+    }
+
+//Ex6
+    @Test
+    public void assertElementPresent()
+    {
+        waitForElementAndClick(
+                By.id("org.wikipedia:id/search_container"),
+                "Cannot find 'Search Wikipedia' input",
+                5
+        );
+
+        String search_line = "Java (programming language)";
+
+        waitForElementAndSendKeys(
+                By.xpath("//*[contains(@text, 'Search…')]"),
+                search_line,
+                "Cannot find search input",
+                5
+        );
+
+        waitForElementAndClick(
+                By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='" + search_line + "']"),
+                "Cannot find topic searching by '" + search_line + "'",
+                5
+        );
+
+        Assert.assertTrue(
+                "Cannot find title '" + search_line + "'",
+                isElementPresent(By.xpath("//*[@resource-id='org.wikipedia:id/view_page_title_text']"))
+        );
+    }
+
+    public boolean isElementPresent(By by)
+    {
+        try {
+            driver.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
     }
 
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)
