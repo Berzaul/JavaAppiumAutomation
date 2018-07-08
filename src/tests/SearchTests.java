@@ -53,4 +53,22 @@ public class SearchTests extends CoreTestCase
         SearchPageObject.waitForEmptyResultsLabel();
         SearchPageObject.assertThereIsNoResultOfSearch();
     }
+
+//Ex3
+    @Test
+    public void testCountResults()
+    {
+        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject.initSearchInput();
+        SearchPageObject.typeSearchLine("Java");
+        int elements_count = SearchPageObject.getSearchResultsCount();
+
+        assertTrue(
+                "We found too few results!",
+                elements_count > 1
+        );
+
+        SearchPageObject.clickCancelSearch();
+        SearchPageObject.waitForSearchResultToDissappear("Object-oriented programming language");
+    }
 }

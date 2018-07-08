@@ -83,4 +83,16 @@ public class SearchPageObject extends MainPageObject {
     {
         this.assertElementNotPresent(By.xpath(SEARCH_RESULT_ELEMENT), "We supposed not to find any results");
     }
+
+    public int getSearchResultsCount()
+    {
+        this.getAmountOfFoundArticles();
+        return this.getAmountOfElements(By.xpath(SEARCH_RESULT_ELEMENT));
+    }
+
+    public void waitForSearchResultToDissappear(String substring)
+    {
+        String search_result_xpath = getResultSearchElement(substring);
+        this.waitForElementNotPresent(By.xpath(search_result_xpath), "Search results is still here", 5);
+    }
 }

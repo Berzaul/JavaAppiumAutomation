@@ -20,16 +20,6 @@ public class MainPageObject {
         this.driver = driver;
     }
 
-    public boolean isElementPresent(By by)
-    {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
-
     public WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
