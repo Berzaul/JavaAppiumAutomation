@@ -120,4 +120,9 @@ public class ArticlePageObject extends MainPageObject {
                 5
         );
     }
+
+    public int getTitlesCount()
+    {
+        return getAmountOfElements(By.xpath(TITLE));
+    }
 }

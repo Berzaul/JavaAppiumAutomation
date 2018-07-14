@@ -67,4 +67,14 @@ public class MyListsPageObject extends MainPageObject {
 
         this.waitForArticleToDisappearByTitle(article_title);
     }
+
+    public void openArticleInFolder(String article_title)
+    {
+        String article_xpath = getSavedArticleXpathByTitle (article_title);
+        this.waitForElementAndClick(
+                By.xpath(article_xpath),
+                "Cannot find article in folder",
+                5
+        );
+    }
 }

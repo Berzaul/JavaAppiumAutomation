@@ -39,4 +39,22 @@ public class ArticleTests extends CoreTestCase
         ArticlePageObject.waitForTitleElement();
         ArticlePageObject.swipeToFooter();
     }
+
+    @Test
+    public void testAssertElementPresent()
+    {
+        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+
+        String search_line = "Java (programming language)";
+        SearchPageObject.initSearchInput();
+        SearchPageObject.typeSearchLine(search_line);
+        SearchPageObject.clickByArticleWithSubstring("Object-oriented programming language");
+
+        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+
+        assertTrue(
+                "Cannot find title '" + search_line + "'",
+                ArticlePageObject.getTitlesCount() > 0
+        );
+    }
 }
