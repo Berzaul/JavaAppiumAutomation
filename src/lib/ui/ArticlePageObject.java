@@ -118,7 +118,7 @@ abstract public class ArticlePageObject extends MainPageObject {
                 5
         );
 
-        String folder_name = "xpath:" + getFolderElement(name_of_folder);
+        String folder_name = getFolderElement(name_of_folder);
 
         this.waitForElementAndClick(
                 folder_name,
