@@ -129,7 +129,7 @@ abstract public class ArticlePageObject extends MainPageObject {
 
     public void closeArticle()
     {
-        //Иногда не нажимается кнопка назад из-за попапа, поэтому добавил еще waitForElementPresent
+        //Иногда не нажимается кнопка назад из-за попапа iOS, поэтому добавил еще waitForElementPresent
         this.waitForElementPresent(
                 CLOSE_ARTICLE_BUTTON,
                 "Cannot find close article button",

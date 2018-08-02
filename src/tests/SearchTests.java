@@ -55,7 +55,7 @@ public class SearchTests extends CoreTestCase
         SearchPageObject.assertThereIsNoResultOfSearch();
     }
 
-//Ex3
+//Ex3, Ex11
     @Test
     public void testCountResults()
     {
